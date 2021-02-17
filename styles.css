@@ -33,18 +33,29 @@ body {
 
 .red {
   background-color: red;
+  border-radius: 0 300px 0 100px;
 }
 
 .green {
   background-color: green;
+  border-radius: 300px 0 100px 0;
 }
 
 .blue {
   background-color: blue;
+  border-radius: 100px 0 300px 0;
+}
+
+.white{
+  background-color: white;
+  border-radius: 300px 300px 300px 300px;
+  position: fixed;
+  
 }
 
 .yellow {
   background-color: yellow;
+  border-radius: 0 100px 0 300px;
 }
 
 .pressed {
